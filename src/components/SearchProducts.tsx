@@ -22,6 +22,11 @@ const InputSearch = styled.input`
     outline: none;
 `
 
+const ButtonSearch = styled.button`
+    padding: 5px 10px;
+    margin-left: 10px;
+`
+
 type Props = {
     onSetWordSearch: Function
 }
@@ -32,9 +37,15 @@ const SearchProducts = ({ onSetWordSearch }: Props) => {
         onSetWordSearch(value)
     }
 
+    const openModalCategories = () => {
+        console.log("Hello");
+    }
+
     return (
         <Search>
-            <InputSearch type="text" onChange={e => setValue(e.target.value)} placeholder="Buscar producto ..."/>
+            <InputSearch type="text" onChange={e => setValue(e.target.value)} placeholder="Buscar producto ..." />
+            <ButtonSearch onClick={openModalCategories}>🥌</ButtonSearch>
+            {/* <ModalCategoriesFilter/> */}
         </Search>
     )
 }

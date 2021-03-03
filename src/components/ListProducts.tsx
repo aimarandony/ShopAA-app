@@ -18,7 +18,7 @@ const ListProducts = ({ wordKey = "" }: Props) => {
     const [listProducts, setListProducts] = useState<Product[]>(products)
     const [filterData, setFilterData] = useState<Product[]>([])
 
-    useEffect(() => {
+    useEffect(() => {        
         setFilterData(listProducts.filter(data => data.description.toLowerCase().includes(wordKey?.toLowerCase())))
         // eslint-disable-next-line
     }, [wordKey])
