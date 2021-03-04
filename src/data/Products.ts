@@ -103,7 +103,7 @@ export const products: Product[] = [
     {
         id: 15,
         description: "Paracas Cuatro",
-        price: 2.50,
+        price: 4.50,
         category: categories[1],
         status: true
     },
@@ -301,6 +301,244 @@ export const products: Product[] = [
         description: "Maizena",
         price: 1.50,
         category: categories[4],
+        status: true
+    },
+    {
+        id: 44,
+        description: "Compas Bolsa 750Gr.",
+        price: 3.20,
+        category: categories[5],
+        status: true
+    },
+    {
+        id: 45,
+        description: "Superextra 1Kg.",
+        price: 3.00,
+        category: categories[5],
+        status: true
+    },
+    {
+        id: 46,
+        description: "Caserita Morada 1Kg.",
+        price: 3.00,
+        category: categories[5],
+        status: true
+    },
+    {
+        id: 47,
+        description: "Caserita Amarrillo 1Kg.",
+        price: 2.80,
+        category: categories[5],
+        status: true
+    },
+    {
+        id: 48,
+        description: "Pacasmayo Naranja 1Kg.",
+        price: 3.50,
+        category: categories[5],
+        status: true
+    },
+    {
+        id: 49,
+        description: "Dulce Norte 1Kg.",
+        price: 2.80,
+        category: categories[6],
+        status: true
+    },
+    {
+        id: 50,
+        description: "Ace 500Gr.",
+        price: 5.00,
+        category: categories[7],
+        status: true
+    },
+    {
+        id: 51,
+        description: "Ace 300Gr.",
+        price: 3.30,
+        category: categories[7],
+        status: true
+    },
+    {
+        id: 52,
+        description: "Marsella 300Gr.",
+        price: 3.00,
+        category: categories[7],
+        status: true
+    },
+    {
+        id: 53,
+        description: "Patito Chico",
+        price: 1.00,
+        category: categories[7],
+        status: true
+    },
+    {
+        id: 54,
+        description: "Marsella Chico",
+        price: 1.40,
+        category: categories[7],
+        status: true
+    },
+    {
+        id: 55,
+        description: "Sapolio Chico",
+        price: 1.20,
+        category: categories[7],
+        status: true
+    },
+    {
+        id: 56,
+        description: "Opal 280Gr.",
+        price: 2.50,
+        category: categories[7],
+        status: true
+    },
+    {
+        id: 57,
+        description: "Opal 300Gr.",
+        price: 3.20,
+        category: categories[7],
+        status: true
+    },
+    {
+        id: 58,
+        description: "Opal 480Gr.",
+        price: 4.80,
+        category: categories[7],
+        status: true
+    },
+    {
+        id: 59,
+        description: "Bolivar Ropa",
+        price: 2.20,
+        category: categories[8],
+        status: true
+    },
+    {
+        id: 60,
+        description: "Bolivar Ropa Bebe",
+        price: 2.20,
+        category: categories[8],
+        status: true
+    },
+    {
+        id: 61,
+        description: "Neko Grande",
+        price: 3.00,
+        category: categories[8],
+        status: true
+    },
+    {
+        id: 62,
+        description: "Neko Chico",
+        price: 2.00,
+        category: categories[8],
+        status: true
+    },
+    {
+        id: 63,
+        description: "Moncler",
+        price: 3.00,
+        category: categories[8],
+        status: true
+    },
+    {
+        id: 64,
+        description: "Rexona",
+        price: 2.80,
+        category: categories[8],
+        status: true
+    },
+    {
+        id: 65,
+        description: "Nivea",
+        price: 1.50,
+        category: categories[8],
+        status: true
+    },
+    {
+        id: 66,
+        description: "Jhonson Glicerina",
+        price: 3.00,
+        category: categories[8],
+        status: true
+    },
+    {
+        id: 67,
+        description: "Dove",
+        price: 3.00,
+        category: categories[8],
+        status: true
+    },
+    {
+        id: 68,
+        description: "Kolynos",
+        price: 3.90,
+        category: categories[9],
+        status: true
+    },
+    {
+        id: 69,
+        description: "Colgate Triple",
+        price: 3.50,
+        category: categories[9],
+        status: true
+    },
+    {
+        id: 70,
+        description: "Colgate Máxima Protección",
+        price: 2.50,
+        category: categories[9],
+        status: true
+    },
+    {
+        id: 71,
+        description: "Colgate Herbal",
+        price: 0.00,
+        category: categories[9],
+        status: true
+    },
+    {
+        id: 72,
+        description: "Dento",
+        price: 2.70,
+        category: categories[9],
+        status: true
+    },
+    {
+        id: 73,
+        description: "Kolynos",
+        price: 2.00,
+        category: categories[10],
+        status: true
+    },
+    {
+        id: 74,
+        description: "Oral B",
+        price: 2.00,
+        category: categories[10],
+        status: true
+    },
+    {
+        id: 75,
+        description: "Colgate",
+        price: 2.20,
+        category: categories[10],
+        status: true
+    },
+    {
+        id: 76,
+        description: "HS",
+        price: 1.00,
+        category: categories[11],
+        status: true
+    },
+    {
+        id: 77,
+        description: "HS Sachetón",
+        price: 1.30,
+        category: categories[11],
         status: true
     }
 ]
